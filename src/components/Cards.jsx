@@ -7,8 +7,8 @@ export default function Card(props){
             <img src={props.img}/>
             </div>
             <div className="right">
-            <span>Hi</span>
-            <span>Bye</span>
+            <span>{props.location}         </span>
+            <span><a href ="www.google.ca">View On Google Maps</a></span>
             <h2>{props.title}</h2>
             <span>{props.startDate} - {props.endDate}</span>
             <p>{props.description}</p>
