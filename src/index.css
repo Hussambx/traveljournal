@@ -4,6 +4,7 @@
 }
 body{
   background-color: rgb(230, 230, 230);
+  font-family: "Inter";
 }
 nav{
   display: flex;
@@ -23,19 +24,25 @@ nav>img{
   margin-right: 5px;
 }
 h2{
-  font-size: 60px;
+  font-size: 35px;
+  font-family: "Inter";
+  margin-top: 5px;
+  font-weight: 700px;
 }
-
 .main{
   display: flex;
   justify-content: center;
   margin-top: 50px;
-  gap: 30px;
+  gap: 0px;
  width: 100%;
+}
+.main>div{
+  padding: 10px;
 }
 p{
   max-width: 400px;
-  font-size: large;
+  font-size: 14px;
+  margin-top: 5px;
 }
 .main>div>img{
   width: 200px;
@@ -53,5 +60,10 @@ hr{
 }
 
 span{
-  font-size: large;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+a{
+  color: black;
 }
